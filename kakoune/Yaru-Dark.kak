@@ -42,6 +42,7 @@ declare-option str linkblue '007aa6'
 declare-option str darkblue '335280'
 
 # UI
+set-face global Default "rgb:%opt{chalk},rgb:%opt{inkstone}"
 set-face global PrimarySelection "rgb:%opt{white},rgb:%opt{primary}"
 set-face global SecondarySelection "rgb:%opt{silk},rgb:%opt{primary}"
 set-face global PrimaryCursor "rgb:%opt{orange}"
@@ -60,15 +61,19 @@ set-face global value "rgb:%opt{blue}"
 set-face global keyword "rgb:%opt{green}"
 set-face global builtin "rgb:%opt{green}+b"
 set-face global variable "rgb:%opt{purple}"
+set-face global meta "rgb:%opt{white}+b"
 set-face global operator "rgb:%opt{white}+b"
 
 # Identifiers
 set-face global function "rgb:%opt{light_aubergine}+b"
 
+# Statements
+set-face global module "rgb:%opt{satsuma}+b"
+
 # Types
 set-face global type "rgb:%opt{linkblue}+b"
 
 # Annotations
-set-face global Error "rgb:%opt{red},rgb:%opt{jet}+b+u"
-set-face global DiagnosticError "rgb:%opt{red},rgb:%opt{jet}+b+u"
-set-face global DiagnosticWarning "rgb:%opt{orange},rgb:%opt{jet}+b+u"
+set-face global Error "rgb:%opt{red},rgb:%opt{jet}+bu"
+set-face global DiagnosticError "rgb:%opt{red},rgb:%opt{jet}+bu"
+set-face global DiagnosticWarning "rgb:%opt{orange},rgb:%opt{jet}+bu"
