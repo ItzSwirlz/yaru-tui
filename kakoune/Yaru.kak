@@ -1,3 +1,7 @@
+# Ubuntu community theme "yaru". Better than a burrito.
+# Authors: Martin Wimpress, Joshua Peisach
+# License: GPL-3+
+
 # Primary Accent
 declare-option str primary 'E95420'
 
