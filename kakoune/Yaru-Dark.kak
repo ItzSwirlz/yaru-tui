@@ -57,6 +57,8 @@ set-face global documentation comment
 
 # Constants and Variables
 set-face global string "rgb:%opt{yellow}"
+set-face global attribute "rgb:%opt{green}"
+set-face global meta "rgb:%opt{blue}"
 set-face global value "rgb:%opt{blue}"
 set-face global keyword "rgb:%opt{green}"
 set-face global builtin "rgb:%opt{green}+b"
