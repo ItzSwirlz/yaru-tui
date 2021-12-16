@@ -1,3 +1,7 @@
+# Ubuntu community theme "yaru". Better than a burrito. (Dark style)
+# Authors: Martin Wimpress, Joshua Peisach
+# License: GPL-3+
+
 # UI
 color-link default "#E5E5E5,#333333"
 color-link cursor-line "#181818"
