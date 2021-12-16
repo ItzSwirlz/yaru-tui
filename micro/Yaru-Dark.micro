@@ -3,7 +3,7 @@ color-link default "#E5E5E5,#333333"
 color-link cursor-line "#E95420"
 color-link line-number "bold #CDCDCD,#181818"
 color-link current-line-number "#181818"
-color-link symbol.brackets "#0e8420,#333333"
+color-link symbol.brackets "#FFFFFF,#333333"
 color-link space "#878787,#333333"
 color-link hlsearch "#FFFFFF,#0e8420"
 
@@ -11,24 +11,27 @@ color-link hlsearch "#FFFFFF,#0e8420"
 color-link comment "italic #924D8B"
 
 # Constants and Variables
-color-link constant "#0e8420"
+color-link constant "#19B6EE"
+color-link constant.string "#f99b11"
 color-link special "#0e8420"
 color-link constant.specialChar "bold #0e8420"
+color-link number "#19B6EE"
 color-link preproc "bold #FFFFFF"
 color-link symbol.operator "bold #FFFFFF"
 
 # Identifiers
-color-link identifier "#77216F"
+color-link identifier "bold #FFFFFF"
 
 # Statements
-color-link statement "bold #ED764D"
+color-link statement "#0e8420"
 
 # Types
-color-link type "bold #007aa6"
+color-link type "#0e8420"
 
 # Annotations
 color-link error "bold underline #c7162b,#181818"
 color-link gutter-error "bold underline #c7162b,#181818"
+color-link warning "bold underline #E95420,#181818"
 color-link gutter-warning "bold underline #E95420,#181818"
 color-link todo "bold underline #E95420,#181818"
 color-link underlined "underline #E5E5E5"
