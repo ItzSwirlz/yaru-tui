@@ -1,6 +1,6 @@
 # UI
 color-link default "#E5E5E5,#333333"
-color-link cursor-line "#E95420"
+color-link cursor-line "#181818"
 color-link line-number "bold #CDCDCD,#181818"
 color-link current-line-number "#181818"
 color-link symbol.brackets "#FFFFFF,#333333"
