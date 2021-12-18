@@ -1,0 +1,41 @@
+# Ubuntu community theme "yaru". Better than a burrito.
+# Authors: Martin Wimpress, Joshua Peisach
+# License: GPL-3+
+
+# UI
+color-link default "#181818,#FFFFFF"
+color-link cursor-line "#CDCDCD"
+color-link line-number "bold #181818,#CDCDCD"
+color-link current-line-number "#CDCDCD"
+color-link symbol.brackets "#000000,#F7F7F7"
+color-link space "#666666,#FFFFFF"
+color-link hlsearch "#FFFFFF,#0e8420"
+
+# Comments
+color-link comment "italic #924D8B"
+
+# Constants and Variables
+color-link constant "#19B6EE"
+color-link constant.string "#f99b11"
+color-link special "#0e8420"
+color-link constant.specialChar "bold #0e8420"
+color-link number "#19B6EE"
+color-link preproc "bold #000000"
+color-link symbol.operator "bold #000000"
+
+# Identifiers
+color-link identifier "bold #000000"
+
+# Statements
+color-link statement "#0e8420"
+
+# Types
+color-link type "#0e8420"
+
+# Annotations
+color-link error "bold underline #c7162b,#181818"
+color-link gutter-error "bold underline #c7162b,#181818"
+color-link warning "bold underline #E95420,#181818"
+color-link gutter-warning "bold underline #E95420,#181818"
+color-link todo "bold underline #E95420,#181818"
+color-link underlined "underline #E5E5E5"
