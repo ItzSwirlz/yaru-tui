@@ -5,6 +5,9 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: ubuntu:devel
+      options: --privileged -it
 
     steps:
     - uses: actions/checkout@v2.4.0
