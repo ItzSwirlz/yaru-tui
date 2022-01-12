@@ -67,8 +67,8 @@
    `(border ((,class (:background ,jet))))
    `(internal-border ((,class (:background ,jet))))
    `(minibuffer-prompt ((,class (:foreground ,primary))))
-   `(mode-line ((,class (:background ,black))))
-   `(mode-line-inactive ((,class (:background ,jet))))
+   `(mode-line ((,class (:background ,jet))))
+   `(mode-line-inactive ((,class (:background ,black))))
 
    ;; Comments
    `(custom-comment ((,class (:foreground ,aubergine :slant italic))))
