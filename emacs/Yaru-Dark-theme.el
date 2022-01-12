@@ -66,8 +66,8 @@
    ;; Emacs Specific
    `(border ((,class (:background ,jet))))
    `(internal-border ((,class (:background ,jet))))
-   `(minibuffer-prompt ((,class (:foreground ,primary))))
-   `(mode-line ((,class (:background ,jet))))
+   `(minibuffer-prompt ((,class (:box (:line-width -1 :style released-button) :foreground ,primary :background ,inkstone))))
+   `(mode-line ((,class (:box (:line-width -1 :style pressed-button) :background ,jet))))
    `(mode-line-inactive ((,class (:background ,black))))
 
    ;; Comments
