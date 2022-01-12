@@ -1,0 +1,45 @@
+# Main Colors
+unrecognized_file: '#f99b11' # Yellow
+recognized_file:   '#f99b11' # Yellow
+executable_file:   '#0e8420' # Green
+dir:               '#19B6EE' # Blue
+
+# Link
+dead_link: '#c7162b' # Red
+link:      '#19B6EE' # Blue
+
+# special files
+socket:    '#0e8420' # Green
+blockdev:  '#0e8420' # Green
+chardev:   '#0e8420' # Green
+
+# Access Modes
+write:     '#f99b11' # Yellow
+read:      '#0e8420' # Green
+exec:      '#c7162b' # Red
+no_access: '#c7162b' # Red
+
+# Age
+day_old:     '#0e8420' # Green
+hour_old:    '#0e8420' # Green
+no_modifier: '#0e8420' # Green
+
+# File Size
+file_large:  '#E95420' # Orange
+file_medium: '#f99b11' # Yellow
+file_small:  '#CDCDCD' # Silk
+
+# Random
+report: '#FFFFFF' # White
+user:   '#CDCDCD' # Silk
+tree:   '#19B6EE' # Blue
+empty:  '#f99b11' # Yellow
+error:  '#c7162b' # Red
+normal: '#f99b11' # Yellow
+
+# Git
+addition:     '#0e8420' # Green
+modification: '#f99b11' # Yellow
+deletion:     '#c7162b' # Red
+untracked:    '#E95420' # Orange
+unchanged:    '#0e8420' # Green
