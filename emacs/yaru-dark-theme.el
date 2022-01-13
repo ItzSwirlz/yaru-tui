@@ -1,6 +1,6 @@
-;;; Yaru-Dark-theme.el ---
+;;; yaru-dark-theme.el ---
 
-(deftheme Yaru-Dark
+(deftheme yaru-dark
   "Ubuntu community theme. Better than a burrito. (Dark version)")
 
 (let ((class '((class color) (min-colors 89)))
@@ -48,7 +48,7 @@
       (darkblue "#335280"))
 
   (custom-theme-set-faces
-   'Yaru-Dark
+   'yaru-dark
    ;; UI
    `(default ((,class (:foreground ,chalk :background ,inkstone))))
    `(highlight ((,class (:foreground ,white :background ,primary))))
@@ -66,9 +66,9 @@
    ;; Emacs Specific
    `(border ((,class (:background ,jet))))
    `(internal-border ((,class (:background ,jet))))
-   `(minibuffer-prompt ((,class (:box (:line-width -1 :style released-button) :foreground ,primary :background ,inkstone))))
-   `(mode-line ((,class (:box (:line-width -1 :style pressed-button) :background ,jet))))
-   `(mode-line-inactive ((,class (:background ,black))))
+   `(minibuffer-prompt ((,class (:foreground ,primary))))
+   `(mode-line ((,class (:background ,black))))
+   `(mode-line-inactive ((,class (:background ,jet))))
 
    ;; Comments
    `(custom-comment ((,class (:foreground ,aubergine :slant italic))))
@@ -100,6 +100,6 @@
    `(font-lock-warning-face ((,class (:foreground ,orange :background ,jet :weight bold :underline t))))
    `(underline ((,class (:foreground ,chalk :underline t))))))
 
-(provide-theme 'Yaru-Dark)
+(provide-theme 'yaru-dark)
 
-;;; Yaru-Dark-theme.el ends here
+;;; yaru-dark-theme.el ends here
