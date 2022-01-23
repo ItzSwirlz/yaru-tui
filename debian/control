@@ -2,12 +2,29 @@ Source: yaru-cli
 Section: misc
 Priority: optional
 Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
-Build-Depends: debhelper (>= 12)
+Build-Depends: debhelper (>= 12), dh-elpa
 Standards-Version: 4.6.0.1
 Homepage: https://github.com/ItzSwirlz/yaru-cli
 Vcs-Browser: https://github.com/ItzSwirlz/yaru-cli
 Vcs-Git: https://github.com/ItzSwirlz/yaru-cli.git
 Rules-Requires-Root: no
+
+Package: elpa-yaru-theme
+Architecture: all
+Depends: ${elpa:Depends}, ${misc:Depends}
+Provides: yaru-theme-emacs
+Enhances: emacs
+Description: Yaru Emacs theme from the Ubuntu Community
+ This is the theme, better than a burrito, that is shaped by the community
+ on the Ubuntu discourse.
+ .
+ This package contains the Emacs theme parts.
+ .
+ If you want to follow development, more information here:
+ https://community.ubuntu.com/c/desktop/theme-refresh.
+ .
+ This package is part of the yaru-cli terminal application suite
+ (https://github.com/ItzSwirlz/yaru-cli), and is unofficial.
 
 Package: kakoune-yaru-theme
 Architecture: all
