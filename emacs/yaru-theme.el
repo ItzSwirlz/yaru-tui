@@ -2,7 +2,11 @@
 
 ;; Copyright (C) 2022 Joshua Peisach <itzswirlz2020@outlook.com>
 
+;; Maintainer: Joshua Peisach <itzswirlz2020@outlook.com>
 ;; Authors: Joshua Peisach <itzswirlz2020@outlook.com>
+;; Version: 22.04
+;; Package-Requires: ((emacs "24.3"))
+;; URL: https://github.com/ItzSwirlz/yaru-cli
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
