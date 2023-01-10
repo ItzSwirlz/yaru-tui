@@ -1,0 +1,15 @@
+themes {
+    yaru {
+	fg "#FFFFFF"  // as per _gnome-terminal.scss
+	bg "#300A24"  // Terminal bg color from _gnome-terminal.scss
+	black "#181818"  // jet
+	red "#c7162b"
+	green "#0e8420"
+	yellow "#f99b11"
+	blue "#19B6EE"
+	magenta "#924D8B"  // close enough to a purple, lets honor the aubergine
+	cyan "#007aa6"  // Blue is close to cyan - linkblue
+	white "#FFFFFF" // With the background there shouldn't be white on white
+	orange "#E95420"  // thee holy ubuntu orange
+    }
+}
